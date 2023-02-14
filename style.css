@@ -9,9 +9,9 @@ h1 {
 }
 
 br {
-  display: block; /* makes it have a width */
-  content: ""; /* clears default height */
-  margin-top: 10px; /* change this to whatever height you want it */
+  display: block;
+  content: "";
+  margin-top: 10px;
 }
 
 .topborder {
@@ -427,4 +427,76 @@ ul li:hover ul.dropdown:after {
   line-height: 1.5;
   padding: 00px 30px 0px 30px;
   order: -1;
+}
+
+#rubric-header {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: auto;
+  margin: 40px auto 20px;
+  background-color: #365a38;
+  box-shadow: 8px 8px 0 0px #68a36b;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+h2 {
+  color: white;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 25px;
+  padding: 0px 20px 0px 20px;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+  transition: height 0.2s, width 0.2s, background-color 0.2s, margin 0.2s, box-shadow 0.2s;
+}
+
+.circle:hover {
+  height: 20px;
+  width: 20px;
+  margin: 2.5px;
+  background-color: #68a36b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#circle-container {
+  padding: 10px; 
+  display: flex; 
+  flex-direction: row;
+  margin-right: 10px;
+  justify-content: right;
+  align-items: center;
+}
+
+.rubric-table {
+  width: 45%;
+  height: auto;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 20px;
+  color: #365a38;
+}
+
+.rubric-cell {
+  padding: 10px;
+}
+
+.rubric-col1 {
+  text-align: right
+}
+
+.rubric-col2 {
+  padding: 10px 40px 10px 40px;
+}
+
+.rubric-col3 {
+  text-align: right
 }
