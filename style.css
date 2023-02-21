@@ -316,6 +316,8 @@ ul li:hover ul.dropdown:after {
   transform: rotate(180deg);
   margin: 0;
   padding: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .container2 {
@@ -331,7 +333,7 @@ ul li:hover ul.dropdown:after {
 }
 
 #container3cols {
-  width: 21%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -401,19 +403,41 @@ ul li:hover ul.dropdown:after {
   order: -1;
 }
 
+.second-image {
+  margin-top: -100px;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  background-position: center;
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.gradient {
+  margin-top: -400px;
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(transparent, #f2f2f2 400px);
+  position: relative;
+  z-index: 2;
+}
+
 .green-p {
   width: 45%; 
   background-color: #365a38;
-  border: 8px solid #68a36b;
-  /* border: 8px solid #5e7b5f; */
   font-size: 20px;
   color: #ffffff;
   box-sizing: border-box;
   white-space: normal;
+  border: 8px solid #68a36b;
   text-align: justify;
   justify-content: center;
   line-height: 1.5;
-  margin: 20px;
+  margin: 30px;
   order: -1;
 }
 
@@ -453,9 +477,18 @@ h2 {
   width: 15px;
   margin: 5px;
   border-radius: 50%;
+  padding: 2px 1px 0px 0px;
+  color: rgba(54, 90, 56, 1);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
   background-color: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0);
-  transition: height 0.2s, width 0.2s, background-color 0.2s, margin 0.2s, box-shadow 0.2s;
+  transition: height 0.2s, width 0.2s, background-color 0.2s, margin 0.2s, box-shadow 0.2s, color 0.2s;
 }
 
 .circle:hover {
@@ -463,7 +496,9 @@ h2 {
   width: 20px;
   margin: 2.5px;
   background-color: #68a36b;
+  color: rgba(54, 90, 56, 0);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;  
 }
 
 #circle-container {
