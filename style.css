@@ -5,7 +5,7 @@ h1 {
   text-align: center; 
   font-size: 40px; 
   font-weight: bold; 
-  color: #5e7b5f;
+  color: #155c35;
 }
 
 br {
@@ -15,7 +15,7 @@ br {
 }
 
 .topborder {
-  background-color: #365a38;
+  background-color: #155c35;
   height: 8px;
   width: 100%;
   position: relative;
@@ -27,7 +27,7 @@ br {
 }
 
 .topborderthick {
-  background-color: #365a38;
+  background-color: #155c35;
   height: 30px;
   width: 100%;
   position: relative;
@@ -58,7 +58,7 @@ br {
 }
 
 .headerbutton {
-  color: #f2f2f2;
+  color: #155c35;
   font-family: "Roboto", "Arial", sans-serif;
   padding: 5px;
   font-size: 15px;
@@ -110,17 +110,17 @@ main {
   line-height: 40px;
   padding-top: 0;
   padding-bottom: 0;
-  background: #68a36b;
+  background-color: #155c35;
   text-align: center;
-  color: #ffffff;
+  color: #f2f2f2;
   font-weight: bold;
   text-transform: uppercase;
   transition: 0.5s background-color;
 }
 
 .menu-button:hover {
-  background-color: #548356;
-  transition: 0.5s background-color ease-in-out;
+  background-color: #68a36b;
+  transition: 0.3s background-color ease-in-out;
 }
 
 .menu-title {
@@ -140,24 +140,24 @@ main {
 }
 
 .menu-title:hover {
-  background-color: #548356;
+  background-color: #68a36b;
   transition: 0.3s background-color ease-in-out;
 }
 
 .menu-title:not(:hover) {
-  background-color: #68a36b;
+  background-color: #155c35;
   transition: 0.4s background-color ease-in-out;
 }
 
 ul li:hover .menu-title {
-  background-color: #548356;
+  background-color: #68a36b;
 }
 
 .menu-title:before {
   content: "";
   display: block;
   height: 0;
-  border-top: 5px solid #68a36b;
+  border-top: 5px solid #155c35;
   border-left: 88px solid transparent;
   border-right: 88px solid transparent;
   border-bottom: 0 solid #dddddd;
@@ -167,19 +167,13 @@ ul li:hover .menu-title {
   z-index: 1003;
   transform-origin: top center;
   transform: rotatex(0deg);
+  transition: border-top 0.4s, border-top-color 0.2s, transform 0.4s;
 }
 
 .menu-title:hover:before {
   border-top: 5px solid #e9e9e9;
   transform: rotatex(180deg);
-  transition: border-top 0.4s, border-top-color 0.2s, transform 0.4s;
   }
-
-.menu-title:not(:hover):before {
-  border-top: 5px solid #68a36b;
-  transform: rotatex(0deg);
-  transition: border-top 0.4s, border-top-color 0.2s, transform 0.4s;
-}
 
 ul li:hover .menu-title:before {
   border-top: 5px solid #e9e9e9;
@@ -287,7 +281,7 @@ ul li:hover ul.dropdown:after {
 #container p {
   width: 30%;
   font-size: 20px;
-  color: #365a38;
+  color: #155c35;
   padding-right: 30px;
   box-sizing: border-box;
   white-space: normal;
@@ -359,11 +353,11 @@ ul li:hover ul.dropdown:after {
 }
 
 .contactleft {
-  vertical-align: top; color: #365a38; text-align: right; padding-right: 10px; width: 250px;
+  vertical-align: top; color: #155c35; text-align: right; padding-right: 10px; width: 250px;
 }
 
 .contactright {
-  vertical-align: top; color: #365a38; width: 250px; padding-left: 10px;
+  vertical-align: top; color: #155c35; width: 250px; padding-left: 10px;
 }
 
 .img-logo {
@@ -376,7 +370,7 @@ ul li:hover ul.dropdown:after {
   padding-bottom: 10px;
 }
 .bottomborder {
-  background-color: #365a38;
+  background-color: #155c35;
   height: 10px;
   width: 100%;
   position: relative;
@@ -395,7 +389,7 @@ ul li:hover ul.dropdown:after {
 .about-p {
   width: 50%;
   font-size: 20px;
-  color: #365a38;
+  color: #155c35;
   box-sizing: border-box;
   white-space: normal;
   text-align: justify;
@@ -429,7 +423,7 @@ ul li:hover ul.dropdown:after {
 
 .green-p {
   width: 45%; 
-  background-color: #365a38;
+  background-color: #155c35;
   font-size: 20px;
   color: #ffffff;
   box-sizing: border-box;
@@ -460,7 +454,7 @@ ul li:hover ul.dropdown:after {
   width: 50%;
   height: auto;
   margin: 40px auto 20px;
-  background-color: #365a38;
+  background-color: #155c35;
   box-shadow: 8px 8px 0 0px #68a36b;
   justify-content: center;
   border-radius: 10px;
@@ -518,7 +512,7 @@ h2 {
   line-height: 1.5;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 20px;
-  color: #365a38;
+  color: #155c35;
 }
 
 .rubric-cell {
@@ -545,7 +539,7 @@ h2 {
   background-position: center;
   text-align: center;
   justify-content: center;
-  color: #365a38;
+  color: #155c35;
 }
 
 .gradient-top {
@@ -562,7 +556,7 @@ h2 {
   margin: 0 auto;
   padding: 20px 25px;
   font-size: 20px;
-  color: #365a38;
+  color: #155c35;
   box-sizing: border-box;
   white-space: normal;
   text-align: justify;
