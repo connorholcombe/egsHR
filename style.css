@@ -531,7 +531,9 @@ h2 {
   text-align: right
 }
 
-.home-about {
+.img-home {
+  background-image: url(./img/business5.jpg); 
+  margin-top: -150px;
   height: 600px;
   width: 100%;
   margin-bottom: -100px;
@@ -552,7 +554,6 @@ h2 {
 
 .home-p {
   width: 50%;
-  background-color: rgba(255, 255, 255, 0.8);
   margin: 0 auto;
   padding: 20px 25px;
   font-size: 20px;
@@ -560,9 +561,68 @@ h2 {
   box-sizing: border-box;
   white-space: normal;
   text-align: justify;
-  justify-content: center;
   line-height: 1.5;
   position: relative;
   z-index: 5;
-  margin-top: -400px;
+}
+
+.contact-table {
+  border-collapse: collapse; 
+  width: 40%; 
+  line-height: 1.5; 
+  font-family: 'Roboto', 'Arial', San-Serif; 
+  font-size: 20px; 
+  margin-bottom: 50px; 
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+
+  .img-evergreen_logo {
+    width: 90%;
+  }
+
+  #container3 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  #container3cols {
+    width: 100%;
+  }
+
+  #container3 p {
+    font-size: 20px;
+    color: #f2f2f2;
+    width: 95%;
+  }
+
+  .img-jfm_logo {
+    width: 75%;
+  }
+
+  .img-home {
+    height: auto;
+    width: 100%;
+    object-fit: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .second-image {
+    height: 600px;
+    object-fit: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .home-p {
+    width: 90%;
+    padding: 0;
+  }
+
+  .contact-table {
+    width: 100%; 
+  }
 }
