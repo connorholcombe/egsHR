@@ -140,9 +140,6 @@ main {
   flex: 1;
 }
 
-.nav-menu {
-}
-
 .menu-button {
   display: inline-block;
   width: 125px;
@@ -172,7 +169,6 @@ main {
   line-height: 40px;
   padding-top: 0;
   padding-bottom: 0;
-  background: #68a36b;
   text-align: center;
   color: #ffffff;
   font-weight: bold;
@@ -393,23 +389,17 @@ ul li:hover ul.dropdown:after {
   line-height: 1.5;
 }
 
-.contactleft {
-  vertical-align: top; color: #155c35; text-align: right; padding-right: 10px; width: 250px;
-}
-
-.contactright {
-  vertical-align: top; color: #155c35; width: 250px; padding-left: 10px;
-}
-
 .img-logo {
   height: 75px;
 }
+
 .copyright {
   font-family: "Roboto", "Arial", sans-serif; 
   color: grey;
   font-size: 13px;
   padding-bottom: 10px;
 }
+
 .bottomborder {
   background-color: #155c35;
   height: 10px;
@@ -418,6 +408,7 @@ ul li:hover ul.dropdown:after {
   top: 0;
   left: 0;
 }
+
 .bottomborderlight {
   background: #68a36b;
   height: 8px;
@@ -437,6 +428,7 @@ ul li:hover ul.dropdown:after {
   justify-content: center;
   line-height: 1.5;
   order: -1;
+  margin-top: 50px;
 }
 
 .second-image {
@@ -607,14 +599,110 @@ h2 {
   z-index: 5;
 }
 
-.contact-table {
+.contact-table-home {
   border-collapse: collapse; 
-  width: 40%; 
+  width: 100%; 
   line-height: 1.5; 
   font-family: 'Roboto', 'Arial', San-Serif; 
   font-size: 20px; 
   margin-bottom: 50px; 
   margin-top: 50px;
+}
+
+.contact-table {
+  border-collapse: collapse; 
+  width: 100%; 
+  line-height: 1.5; 
+  font-family: 'Roboto', 'Arial', San-Serif; 
+  font-size: 20px; 
+  margin-bottom: 50px; 
+  margin-top: 50px;
+}
+
+.contactleft {
+  vertical-align: top; 
+  color: #155c35; 
+  text-align: right; 
+  padding-right: 10px; 
+  width: 250px;
+}
+
+.contactright {
+  vertical-align: top; 
+  color: #155c35; 
+  width: 250px; 
+  padding-left: 10px;
+}
+
+.iframe-class {
+  width: 100%;
+  height: 1000px;
+  border: none;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .img-evergreen_logo {
+    width: 55%;
+  }
+
+  #container3 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  #container3cols {
+    width: 100%;
+  }
+
+  #container3 p {
+    font-size: 20px;
+    color: #f2f2f2;
+    width: 95%;
+  }
+
+  .home-p {
+    width: 70%;
+  }
+
+  .about-p {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .img-evergreen_logo {
+    width: 70%;
+  }
+
+  .img-jfm_logo {
+    width: 75%;
+  }
+
+  .img-home {
+    height: auto;
+    width: 100%;
+    object-fit: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .second-image {
+    height: 600px;
+    object-fit: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .home-p {
+    width: 90%;
+  }
+
+  .about-p {
+    width: 90%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -696,10 +784,12 @@ h2 {
     left: -100%;
     top: 58px;
     gap: 0;
+    display: flex;
     flex-direction: column;
     background-color: #155c35;
     width: 100%;
     text-align: center;
+    align-items: center;
     transition: 0.5s ease-in-out;
     z-index: 1000;
   }
@@ -709,7 +799,32 @@ h2 {
     display: block;
   }
 
+  .menu-title {
+    margin: 16px 0;
+    display: block;
+  }
+
+  .menu-title:before {
+    display: none;
+  }
+
+  ul li ul.dropdown {
+    margin: -16px 0px;
+  }
+
+  ul li a.droptext {
+    color: #f2f2f2;
+  }
+
+  ul li:hover ul.dropdown:after {
+    display: none;
+  }
+
   .nav-menu.active {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     left: 0;
   }
 
@@ -720,7 +835,7 @@ h2 {
   }
 
   .contact-table {
-    width: 100%;
+    margin-top: 100px;
   }
 
   .contactleft {
@@ -729,5 +844,14 @@ h2 {
 
   .contactright {
     width: auto;
+  }
+
+  .about-p {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .topborderthick {
+    display: none;
   }
 }
