@@ -851,6 +851,7 @@ h2 {
     color: #f2f2f2;
     text-align: center;
     transform-origin: center;
+    line-height: 30px;
   }
 
   ul li:hover ul.dropdown:after {
