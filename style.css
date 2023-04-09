@@ -186,6 +186,10 @@ main {
   transition: 0.5s background-color;
 }
 
+.menu-title-mobile {
+  display: none;
+}
+
 .menu-title:hover {
   background-color: #68a36b;
   transition: 0.3s background-color ease-in-out;
@@ -835,6 +839,10 @@ h2 {
     display: none;
   }
 
+  .menu-title-mobile {
+    display: inline-block;
+  }
+
   ul li ul.dropdown {
     margin: -16px 0px;
   }
@@ -895,7 +903,7 @@ h2 {
 
   .green-p {
     width: 90%;
-    margin-bottom: -65px;
+    margin: 0px 0px -65px 0px;
   }
 }
 
