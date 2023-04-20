@@ -164,6 +164,25 @@ main {
   font-weight: bold;
   text-transform: uppercase;
   transition: 0.5s background-color;
+
+}
+
+.nav-menu.pe {
+  display: inline-table;
+  border-spacing: 5px;
+}
+
+.menu-button.pe {
+  display: table-cell;
+  width: 125px; 
+  font-size: 20px; 
+  line-height: 1.2; 
+  text-transform: none; 
+  display: table-cell; 
+  vertical-align: middle; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
 }
 
 .menu-button:hover {
