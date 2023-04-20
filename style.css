@@ -842,6 +842,21 @@ h2 {
     z-index: 1000;
   }
 
+  .nav-menu.pe {
+    position: fixed;
+    left: -150%;
+    top: 58px;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #155c35;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    z-index: 1000;
+  }
+
   .menu-button {
     margin: 16px 0;
     display: block;
