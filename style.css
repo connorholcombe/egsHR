@@ -680,6 +680,12 @@ h2 {
   margin: 0 auto;
 }
 
+.pt-spacer {
+  display: none;
+  width: 100%;
+  height: 90px;
+}
+
 @media (max-width: 1300px) {
   .img-evergreen_logo {
     width: 55%;
@@ -862,6 +868,13 @@ h2 {
     display: block;
   }
 
+  .menu-button.pe {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+  }
+
   .menu-title {
     margin: 16px 0;
     display: block;
@@ -940,6 +953,10 @@ h2 {
     width: 90%;
     margin: 0px 0px -65px 0px;
   }
+
+  .pt-spacer {
+    display: block;
+  }
 }
 
 @media (max-width: 400px) {
@@ -950,5 +967,6 @@ h2 {
 
   .img-evergreen_logo-mobile {
     max-width: 65%;
+    display: none;
   }
 }
