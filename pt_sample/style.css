@@ -161,13 +161,15 @@ main {
   text-align: center;
   color: #f2f2f2;
   font-weight: bold;
-  text-transform: uppercase;
   transition: 0.5s background-color;
 }
 
 .nav-menu.pe {
-  display: inline-table;
-  border-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .menu-button.pe {
@@ -194,12 +196,10 @@ main {
   font-size: 16px;
   height: 40px;
   line-height: 40px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0px 24px;
   text-align: center;
   color: #ffffff;
   font-weight: bold;
-  text-transform: uppercase;
   transition: 0.5s background-color;
 }
 
@@ -686,8 +686,6 @@ h2 {
 .pt-dash-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: auto;
 }
 
@@ -700,6 +698,7 @@ h2 {
 .pt-dash-flexbox-row {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   margin-bottom: 20px;
 }
