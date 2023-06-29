@@ -54,7 +54,7 @@
     </header>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-        var topIframe = document.querySelector('.pt-dash-script-top');
+        var topIframe = document.querySelector('.search_iframe');
         if (topIframe) {
           topIframe.contentWindow.addEventListener('FormSubmitted', function(event) {
             var iframes = document.querySelectorAll('.potential_grid_iframe');
@@ -70,7 +70,7 @@
     <script src="../script.js"></script>
     <main>
       <h1>Potential x Performance Matrix</h1>
-      <script class="pt-dash-script-top" type="text/javascript" src="https://c1afw164.caspio.com/dp/d06240005f6af4090edd48c29aec/emb"></script>
+      <iframe class="search_iframe" src="https://c1afw164.caspio.com/dp/d06240005f6af4090edd48c29aec" frameborder="0"></iframe>
       <table class="eval_table">
         <colgroup>
           <col style="width: 60px;">
