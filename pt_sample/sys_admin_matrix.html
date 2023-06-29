@@ -52,12 +52,25 @@
         </ul>
       </center>
     </header>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var topIframe = document.querySelector('.pt-dash-script-top');
+        if (topIframe) {
+          topIframe.contentWindow.addEventListener('FormSubmitted', function(event) {
+            var iframes = document.querySelectorAll('.potential_grid_iframe');
+            if (iframes) {
+              for (var i = 0; i < iframes.length; i++) {
+                iframes[i].contentWindow.location.reload();
+              }
+            }
+          });
+        }
+      });
+    </script>
     <script src="../script.js"></script>
     <main>
       <h1>Potential x Performance Matrix</h1>
-      <div class="pt-dash-script-top">
-        <script type="text/javascript" src="https://c1afw164.caspio.com/dp/d06240005f6af4090edd48c29aec/emb"></script>
-      </div>
+      <script class="pt-dash-script-top" type="text/javascript" src="https://c1afw164.caspio.com/dp/d06240005f6af4090edd48c29aec/emb"></script>
       <table class="eval_table">
         <colgroup>
           <col style="width: 60px;">
