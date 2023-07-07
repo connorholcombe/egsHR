@@ -218,7 +218,7 @@ main {
   text-align: center;
   color: #ffffff;
   font-weight: bold;
-  transition: 0.5s background-color;
+  transition: 0.5s background-color ease-in-out;
 }
 
 .menu-title-mobile {
@@ -253,7 +253,7 @@ ul li:hover .menu-title {
   z-index: 1003;
   transform-origin: top center;
   transform: rotatex(0deg);
-  transition: border-top 0.4s, border-top-color 0.2s, transform 0.4s;
+  transition: border-top 0.4s, border-top-color 0.2s, transform 0.4s ease-in-out;
 }
 
 .menu-title:hover:before {
@@ -1004,6 +1004,26 @@ h2 {
 
   .pt-spacer {
     display: block;
+  }
+
+  .menu-title:not(:hover) {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .nav-menu.pe_tall {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .menu-button.pe_tall {
+    display: block;
+    width: 200px;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: none;
+    padding: none;
+    margin-right: none;
   }
 }
 
