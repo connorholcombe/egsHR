@@ -8,11 +8,11 @@ h1 {
   color: #155c35;
 }
 
-br {
+/* br {
   display: block;
   content: "";
   margin-top: 10px;
-}
+} */
 
 .topborder {
   background-color: #155c35;
