@@ -449,6 +449,7 @@ ul li:hover ul.dropdown:after {
 }
 
 .bottomborder {
+  position: fixed;
   background-color: #155c35;
   height: 10px;
   width: 100%;
@@ -458,6 +459,7 @@ ul li:hover ul.dropdown:after {
 }
 
 .bottomborderlight {
+  position: fixed;
   background: #68a36b;
   height: 8px;
   width: 100%;
