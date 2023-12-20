@@ -178,6 +178,25 @@ main {
   margin-right: 10px;
 }
 
+.nav-menu.pe_tall {
+  display: inline-table;
+  border-spacing: 5px;
+}
+
+.menu-button.pe_tall {
+  display: table-cell;
+  width: 125px; 
+  font-size: 20px; 
+  line-height: 1.2; 
+  text-transform: none; 
+  text-decoration: none;
+  display: table-cell; 
+  vertical-align: middle; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+}
+
 .menu-button:hover {
   background-color: #68a36b;
   transition: 0.3s background-color ease-in-out;
@@ -1002,6 +1021,22 @@ h3 {
 
   .pt-spacer {
     display: block;
+  }
+
+  .nav-menu.pe_tall {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .menu-button.pe_tall {
+    display: block;
+    width: 200px;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: none;
+    padding: none;
+    margin-right: none;
   }
 }
 
