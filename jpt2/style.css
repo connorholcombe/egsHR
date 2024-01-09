@@ -8,12 +8,6 @@ h1 {
   color: #155c35;
 }
 
-/* br {
-  display: block;
-  content: "";
-  margin-top: 10px;
-} */
-
 .topborder {
   background-color: #155c35;
   height: 8px;
@@ -742,6 +736,17 @@ h2 {
   color: #155c35;
   margin-top: 30px;
   margin-bottom: 15px;
+}
+
+.system-table {
+  border-collapse: collapse;
+  line-height: 2;
+  max-width: 1000px;
+}
+
+.system-table td {
+  border: #c7c7c7 solid 1px;
+  padding: 10px;
 }
 
 @media (max-width: 1300px) {
