@@ -789,6 +789,15 @@ h2 {
   padding-left: 10px;
 }
 
+.bullet-p a {
+  color: white;
+}
+
+.system-table a {
+  color: #155c35;
+  font-weight: bold;
+}
+
 @media (max-width: 1300px) {
   .img-evergreen_logo {
     width: 55%;
