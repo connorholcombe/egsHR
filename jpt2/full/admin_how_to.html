@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Performance Tracker</title>
+    <link rel="shortcut icon" type="image/png" href="../../img/favicon.png">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body id="body-wrapper">
+    <header>
+      <div id="topborder-mobile">
+        <a href="admin_score_summary.html">
+        <img class="img-evergreen_logo-mobile" src="../../img/jpt_logo_white.png"></a>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+      <div class="topborderthick">
+        <a class="headerbutton" href="../../index.html">HOME</a>
+        <a class="headerbutton" href="admin_set_password.html">ACCOUNT</a>
+        <a class="headerbutton" href="admin_system.html">SYSTEM</a>
+        <a class="headerbutton" href="mailto:support@consultevergreen.com?subject=JPT Support">SUPPORT</a>
+        <a class="headerbutton" href="https://c1afw164.caspio.com/folderlogout">LOGOUT</a>
+      </div>
+      <div class="topborderlight"></div>
+      <div style="width: 100%; background-color: #f2f2f2;">
+        <center>
+          <a href="../login.html"><img class="img-jfm_logo" src="../../img/jpt_logo.png" alt="Job Performance Tracker Logo"></a>
+        </center>
+      </div>
+      <center>
+        <ul class="nav-menu pe">
+          <li>
+            <a class="menu-title" href="#">Edit & Launch</a>
+            <ul class="dropdown">
+              <li><a class="droptext" href="admin_accounts.html">Accounts</a></li>
+              <li><a class="droptext" href="admin_add_ee.html">Add Employee</a></li>
+              <li><a class="droptext" href="admin_ee_data.html">Employee Data</a></li>
+              <li><a class="droptext" href="admin_eval_status.html">Evaluation Status</a></li>
+            </ul>
+          </li> 
+          <li>
+            <a class="menu-title" href="#">Review</a>
+            <ul class="dropdown">
+              <li><a class="droptext" href="admin_submission_status.html">Submission Status</a></li>
+              <li><a class="droptext" href="admin_score_summary.html">Score Summary</a></li>
+              <li><a class="droptext" href="admin_active_evals.html">Active Evaluations</a></li>
+              <li><a class="droptext" href="admin_review_evals.html">Review Evaluations</a></li>
+              <li><a class="droptext" href="admin_ee_compensation.html">Employee Compensation</a></li>
+            </ul>
+          </li> 
+          <li>
+            <a class="menu-title" href="#">Succession</a>
+            <ul class="dropdown">
+              <li><a class="droptext" href="admin_succession.html">Succession Planning</a></li>
+              <li><a class="droptext" href="admin_matrix.html">Potential x Performance Matrix</a></li>
+            </ul>
+          </li> 
+        </li> 
+          <li class="menu-title-mobile">
+            <a class="menu-title" href="https://c1afw164.caspio.com/folderlogout">Logout</a>
+          </li> 
+        </ul>
+      </center>
+    </header>
+    <main>
+      <div style="margin-top: 50px;"></div>
+      <center>
+        <h1>How To</h1>
+        <h2>Evaluations</h2>
+        <table class="system-table">
+          <tr>
+            <td>Launch Evaluations</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_eval_status.html">evaluation status</a> page. This page can be found in the "Edit & Launch" menu.</li>
+                <li>Select the check boxes next to each employee's name that you would like to launch an evaluation for.</li>
+                <li>Select the "Evaluation Status & Email Options" button at the top left of the table.</li>
+                <li>Activate the self and/ or supervisor evaluation by checking the applicable box. The checkbox on the right will indicate the evaluation will be active, the checkbox on the left will indicate that that field will be updated.</li>
+                <li>If your account has e-mail functionality enabled, you may also check the applicable email options to send an automated email to each employee notifying them that their evaluation is active.</li>
+                <li>Select the "update" button to apply these changes.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Close Evaluations</td>
+            <td>
+              This option should only be utilized once the self and supervisor evaluation periods have ended. Closing an evaluation will finalize and submit the information input in the self and supervisor evaluations. Closing an evaluation means that this employee will no longer show up in the "Submission Status" statistics, but will now have their scores included in the "Score Summary" statistics, as well as the "Succession" pages.
+              <ol>
+                <li>Navigate to the <a href="admin_eval_status.html">evaluation status</a> page. This page can be found in the "Edit & Launch" menu.</li>
+                <li>Select the check boxes next to each employee's name that you would like to close an evaluation for.</li>
+                <li>Select the "Evaluation Status & Email Options" button at the top left of the table.</li>
+                <li>Select the "Close Evaluation" option to close the self and supervisor evaluations for the selected employees. The checkbox on the right will indicate the evaluation will be closed, the checkbox on the left will indicate that that field will be updated.</li>
+                <li>Select the "update" button to apply these changes.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Reopen Evaluation</td>
+            <td>
+              Reopening an evaluation will only be done if an employee or supervisor need to have access to a previosly closed evaluation. If the employee or supervisor is simply ready to complete their evaluation in the next review period, you will follow the steps in the "launch evaluations" section.
+              <ol>
+                <li>Navigate to the <a href="admin_reopen_eval.html">reopen evaluation</a> page. This page can be found in the "System" menu.</li>
+                <li>This process cannot be completed for employees whose evaluations are currently open, so ensure both the self and supervisor evaluation is inactive.</li>
+                <li>Select the "edit" button on the right side of the employee's row whose evaluation needs to be reopened.</li>
+                <li>Check the "reopen evaluation" option. You can also activate either the self-evaluation or the supervisor-evaluation at this time. If both are left inactive, the employee and supervisor will not be able to access the evaluation.</li>
+                <li>Select the "update" button to apply these changes. Be sure not to apply this process to the same employee multiple times in a row, as that would overwrite the evaluation data with what was submitted in the previous evaluation period.</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+        <h2>Employee Information</h2>
+        <table class="system-table">
+          <tr>
+            <td>Add Employee</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_add_ee.html">add employee</a> page. This page can be found in the "Edit & Launch" menu.</li>
+                <li>Fill in all fields as prompted.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Edit Single Employee's Data</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_ee_data.html">employee data</a> page. This page can be found in the "Edit & Launch" menu.</li>
+                <li>Select the "edit" button on the right side of the employee's row, or select the "Change Supervisor" button if you would like to change the supervisor assignment.</li>
+                <li>Enter your edits.</li>
+                <li>Select the "update" button to apply these changes.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Edit Multiple Employee's Data</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_ee_data.html">employee data</a> page. This page can be found in the "Edit & Launch" menu.</li>
+                <li>Select the check boxes next to each employee's name that you would like to apply an edit to.</li>
+                <li>Select the "Edit" button at the top left of the table.</li>
+                <li>Enter your edits. The checkbox to the left of each field indicates if that field will be edited.</li>
+                <li>Select the "update" button to apply these changes.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Change an Employee's Email/ Username</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_accounts.html">accounts</a> page. This page can be found in the "Edit & Launch" menu.</li>
+                <li>Select the "edit" button on the right side of the employee's row that you would like to edit.</li>
+                <li>Enter your edits.</li>
+                <li>Select the "update" button to apply these changes.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Deactivate or Reactivate an Employee's Account</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_accounts.html">accounts</a> page. This page can be found in the "Edit & Launch" menu.</li>
+                <li>Select the "edit" button on the right side of the employee's row that you would like to deactivate or reactivate.</li>
+                <li>Check the box to activate the employee, or uncheck the box to deactivate the employee's account.</li>
+                <li>Select the "update" button to apply these changes.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Change an Employee's Competencies</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_ee_competencies.html">employee competency assignments</a> page. This page can be found in the "System" menu.</li>
+                <li>Select the "select competencies" button on the right side of the employee's row that you would like to edit.</li>
+                <li>Select the competencies that should be utilized from the dropdown menu for up to 15 competencies.</li>
+                <li>Select the "update" button to apply these changes.</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+        <h2>Review Evaluation Data</h2>
+        <table class="system-table">
+          <tr>
+            <td>See Submission Statistics & Status</td>
+            <td>
+              <ol style="list-style-type: disc;">
+                <li>Navigate to the <a href="admin_submission_status.html">submission status</a> page. This page can be found in the "Review" menu.</li>
+                <li>Use the filters at the top of the page to see an overview of data from a specific group. Note, the filters will only be applied once you select the "Filter" button.</li>
+                <li>The table below the charts will show individual employee's submission status.</li>
+                <li>Only employees whose self or supervisor evaluation is active will be a part of this page.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>See Score Statistics</td>
+            <td>
+              <ol style="list-style-type: disc;">
+                <li>Navigate to the <a href="admin_score_summary.html">score summary</a> page. This page can be found in the "Review" menu.</li>
+                <li>Use the filters at the top of the page to see an overview of data from a specific group or time period.</li>
+                <li>The table below the charts will show individual employee scores.</li>
+                <li>Note, only evaluations that have been closed will have their scores shown here.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Review Evaluations that Have Not Been Closed</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_active_evals.html">active evaluations</a> page. This page can be found in the "Review" menu.</li>
+                <li>See the employee's overall self-evaluation and supervisor-evaluation scores in the table.</li>
+                <li>To review the evaluation in more depth, select the "review evaluation" button on the right side of the table for the employee whose evaluation you would like to review.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Review Evaluations that Have Been Closed</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_review_evals.html">review evaluations</a> page. This page can be found in the "Review" menu.</li>
+                <li>Select the plus button next to the employee's name that you would like to view. This will open up a dropdown of all evaluations submitted for this employee.</li>
+                <li>To review the evaluation, select the "review evaluation" button on the right side of the table for the evaluation period you would like to review.</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+        <h2>System-Wide Settings</h2>
+        <table class="system-table">
+          <tr>
+            <td>Change System-Wide Settings</td>
+            <td>
+              See the list of system-wide changes that can be made below:
+              <ol style="list-style-type: disc;">
+                <li>To change the percentage increases in employee salaries that would result from each different score grouping, navigate to the <a href="admin_compensation.html">compensation grid</a> page. This page can be found in the "System" menu.</li>
+                <li>To change any of the competencies utilized in JPT, or to add new competencies, navigate to the <a href="admin_competencies.html">competencies</a> page. This page can be found in the "System" menu.</li>
+                <li>To change the weight of different competencies in the calculation of overall scores, navigate to the <a href="admin_competency_weights.html">competency weights</a> page. This page can be found in the "System" menu.</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+        <h2>Succession Planning Tools</h2>
+        <table class="system-table">
+          <tr>
+            <td>How to Utilize the "Succession Planning" Tool</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_succession.html">succession planning</a> page. This page can be found in the "Succession" menu.</li>
+                <li>Locate the employee you are planning for. For example, if your IT Manager "James Wilson" has submitted their resignation, you would select "view succession options" next to their name to see some possible internal candidates for promotion into that role.</li>
+                <li>Utilize the "Comprehensive-Score Succession" model if you would like to find the relevant candidates based on their total performance evaluation score from the most recent period.</li>
+                <li>Utilize the "Targeted-Score Succession" model if you would like to find the relevant candidates based on their performance evaluation scores from select competencies from the most recent period.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>How to Utilize the "Potential x Performance Matrix"</td>
+            <td>
+              <ol>
+                <li>Navigate to the <a href="admin_matrix.html">potential x performance matrix</a> page. This page can be found in the "Succession" menu.</li>
+                <li>Use the filters at the top of the page to more directly target the department or class titles you would like to review.</li>
+                <li>Locate employees with the best combinations of potential and performance scores from the previous evaluation period. Each box is color coded where green indicates the best scores, and red indicates the worst scores.</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+        <h2>Account</h2>
+        <table class="system-table">
+          <tr>
+            <td>Change my Password</td>
+            <td>
+              <ol>
+                <li>Select the <a href="admin_set_password.html">account</a> button. This button can be found on the top right of the page.</li>
+                <li>Fill in each box with your current and new passwords.</li>
+                <li>Click the "Update" button to apply the change.</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Create a New Administrator Account</td>
+            <td>
+              <ol>
+                <li>Select the <a class="headerbutton" href="mailto:support@consultevergreen.com?subject=JPT Support">support</a> button. This button can be found on the top right of the page.</li>
+                <li>Notify the Evergreen Support team that a new Adminsitrator account needs to be made. If there is a specific username that you would like to have used, please let the team know. Please note, this must be a unique username.</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="divider"></div>
+        <img class="img-logo" src="../../img/Evergreen_Trees_Sage.png" alt="Evergreen Solutions Logo">
+        <p class="copyright">© 2024 Evergreen Solutions LLC. All rights reserved.</p>
+      </div>
+      <div class="bottomborderlight"></div>
+      <div class="bottomborder"></div>
+    </footer>
+  </body>
+</html>
