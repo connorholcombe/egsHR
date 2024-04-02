@@ -205,7 +205,6 @@ main {
   text-align: center;
   color: #ffffff;
   font-weight: bold;
-  text-transform: uppercase;
   transition: 0.5s background-color;
 }
 
@@ -428,6 +427,8 @@ ul li:hover ul.dropdown:after {
 
 .img-logo {
   height: 75px;
+  width: auto;
+  object-fit: contain;
 }
 
 .copyright {
