@@ -758,6 +758,14 @@ h3 {
   background-color: rgba(0,0,0,0.075);
 }
 
+.link-theme {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 30px auto 15px;
+  color: #155c35;
+}
+
 @media (max-width: 1300px) {
   .img-evergreen_logo {
     width: 55%;
