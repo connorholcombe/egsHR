@@ -78,10 +78,10 @@ br {
   background-color: #f2f2f2;
 }
 
-.img-evergreen_logo {
+/* .img-evergreen_logo {
   width: 40%;
   padding-top: 15px;
-}
+} */
 
 .img-evergreen_logo-mobile {
   max-height: 70px;
@@ -167,7 +167,7 @@ main {
   text-decoration: none;
 }
 
-.nav-menu.pe {
+/* .nav-menu.pe {
   display: inline-table;
   border-spacing: 5px;
 }
@@ -189,7 +189,7 @@ main {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-right: 10px;
-}
+} */
 
 .menu-button:hover {
   background-color: #68a36b;
@@ -347,7 +347,7 @@ ul li:hover ul.dropdown:after {
   transition: 0.2s border-top;
 }
 
-#container {
+/* #container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -425,7 +425,7 @@ ul li:hover ul.dropdown:after {
   white-space: normal;
   text-align: justify;
   line-height: 1.5;
-}
+} */
 
 .img-logo {
   height: 75px;
@@ -484,7 +484,7 @@ ul li:hover ul.dropdown:after {
   width: 40%;
 }
 
-.second-image {
+/* .second-image {
   margin-top: -100px;
   width: 100%;
   height: 600px;
@@ -505,7 +505,7 @@ ul li:hover ul.dropdown:after {
   background-image: linear-gradient(transparent, #f2f2f2 500px);
   position: relative;
   z-index: 2;
-}
+} */
 
 .green-p {
   width: 45%; 
@@ -625,7 +625,7 @@ h3 {
   text-align: right
 }
 
-.img-home {
+/* .img-home {
   background-image: url(./img/business5.jpg); 
   margin-top: -150px;
   height: 600px;
@@ -757,10 +757,10 @@ h3 {
   font-size: 16px;
   text-align: justify;
   background-color: rgba(0,0,0,0.075);
-}
+} */
 
 @media (max-width: 1300px) {
-  .img-evergreen_logo {
+  /* .img-evergreen_logo {
     width: 55%;
   }
 
@@ -782,7 +782,7 @@ h3 {
 
   .home-p {
     width: 70%;
-  }
+  } */
 
   .about-p {
     width: 70%;
@@ -795,7 +795,7 @@ h3 {
 
 @media (max-width: 1024px) {
 
-  .img-evergreen_logo {
+  /* .img-evergreen_logo {
     width: 70%;
   }
 
@@ -816,7 +816,7 @@ h3 {
 
   .home-p {
     width: 90%;
-  }
+  } */
 
   .about-p {
     width: 90%;
@@ -846,9 +846,9 @@ h3 {
     z-index: 2000;
   }
 
-  .img-evergreen_logo {
+  /* .img-evergreen_logo {
     display: none;
-  }
+  } */
 
   .hamburger {
     display: block;
@@ -870,7 +870,7 @@ h3 {
     padding-top: 75px;
   }
 
-  #container3 {
+  /* #container3 {
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -884,14 +884,14 @@ h3 {
     font-size: 20px;
     color: #f2f2f2;
     width: 95%;
-  }
+  } */
 
   .img-jfm-logo {
     width: 75%;
     display: none;
   }
 
-  .img-home {
+  /* .img-home {
     height: auto;
     width: 100%;
     object-fit: none;
@@ -904,7 +904,7 @@ h3 {
     object-fit: none;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
 
   .nav-menu {
     position: fixed;
@@ -921,7 +921,7 @@ h3 {
     z-index: 1000;
   }
 
-  .nav-menu.pe {
+  /* .nav-menu.pe {
     position: fixed;
     left: -150%;
     top: 58px;
@@ -934,19 +934,19 @@ h3 {
     align-items: center;
     transition: 0.5s ease-in-out;
     z-index: 1000;
-  }
+  } */
 
   .menu-button {
     margin: 16px 0;
     display: block;
   }
 
-  .menu-button.pe {
+  /* .menu-button.pe {
     display: flex;
     flex-direction: column;
     padding-bottom: 13px;
     text-transform: uppercase;
-  }
+  } */
 
   .menu-title {
     margin: 16px 0;
@@ -992,7 +992,7 @@ h3 {
     margin-top: 98px;
   }
 
-  .contact-table {
+  /* .contact-table {
     margin-top: 100px;
   }
 
@@ -1002,7 +1002,7 @@ h3 {
 
   .contactright {
     width: auto;
-  }
+  } */
 
   .about-p {
     width: 90%;
@@ -1027,9 +1027,9 @@ h3 {
     margin: 0px 0px -65px 0px;
   }
 
-  .pt-spacer {
+  /* .pt-spacer {
     display: block;
-  }
+  } */
 }
 
 @media (max-width: 400px) {
