@@ -78,21 +78,18 @@ br {
   background-color: #f2f2f2;
 }
 
-.img-evergreen_logo {
+.img-evergreen-logo {
   width: 40%;
   padding-top: 15px;
+  display: flex;
+  margin: 0 auto;
 }
 
-.img-evergreen_logo-mobile {
+.img-evergreen-logo-mobile {
   max-height: 70px;
   max-width: 80%;
   justify-content: flex-start;
   margin: 0 10px;
-}
-
-.img-jfm_logo {
-  width: 500px;
-  padding-top: 15px;
 }
 
 .headerbutton {
@@ -164,24 +161,6 @@ main {
   font-weight: bold;
   text-transform: uppercase;
   transition: 0.5s background-color;
-}
-
-.nav-menu.pe {
-  display: inline-table;
-  border-spacing: 5px;
-}
-
-.menu-button.pe {
-  display: table-cell;
-  width: 125px; 
-  font-size: 20px; 
-  line-height: 1.2; 
-  text-transform: none; 
-  display: table-cell; 
-  vertical-align: middle; 
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-right: 10px;
 }
 
 .menu-button:hover {
@@ -341,30 +320,6 @@ ul li:hover ul.dropdown:after {
   transition: 0.2s border-top;
 }
 
-#container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#container p {
-  width: 30%;
-  font-size: 20px;
-  color: #155c35;
-  padding-right: 30px;
-  box-sizing: border-box;
-  white-space: normal;
-  text-align: justify;
-  line-height: 1.5;
-  order: -1;
-}
-
-.responsive-image {
-  width: 30%;
-  height: 200px;
-  object-fit: cover;
-}
-
 .transition {
   width: 100%;
   height: 100px;
@@ -390,13 +345,13 @@ ul li:hover ul.dropdown:after {
   align-items: center;
 }
 
-#container3 {
+.container3 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
 
-#container3cols {
+.container3cols {
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -404,13 +359,13 @@ ul li:hover ul.dropdown:after {
   justify-content: center;
 }
 
-#container3pic {
+.container3pic {
   display: flex;
   height: 75px;
   width: 75px;
 }
 
-#container3 p {
+.container3 p {
   font-size: 20px;
   color: #f2f2f2;
   padding-right: 15px;
@@ -423,13 +378,15 @@ ul li:hover ul.dropdown:after {
 
 .img-logo {
   height: 75px;
+  width: auto;
+  object-fit: contain;
 }
 
 .copyright {
-  font-family: "Roboto", "Arial", sans-serif; 
   color: grey;
   font-size: 13px;
-  padding-bottom: 10px;
+  padding: 25px 0;
+  margin: 0 auto;
 }
 
 .bottomborder {
@@ -457,10 +414,8 @@ ul li:hover ul.dropdown:after {
   box-sizing: border-box;
   white-space: normal;
   text-align: justify;
-  justify-content: center;
   line-height: 1.5;
-  order: -1;
-  margin-top: 50px;
+  margin: 50px auto 0px;
 }
 
 .second-image {
@@ -486,45 +441,6 @@ ul li:hover ul.dropdown:after {
   z-index: 2;
 }
 
-.green-p {
-  width: 45%; 
-  background-color: #155c35;
-  font-size: 20px;
-  color: #ffffff;
-  box-sizing: border-box;
-  white-space: normal;
-  border: 8px solid #68a36b;
-  text-align: justify;
-  justify-content: center;
-  line-height: 1.5;
-  margin: 30px;
-  order: -1;
-}
-
-.bullet-p {
-  font-size: 20px;
-  color: #ffffff;
-  box-sizing: border-box;
-  white-space: normal;
-  text-align: justify;
-  justify-content: center;
-  line-height: 1.5;
-  padding: 00px 30px 0px 30px;
-  order: -1;
-}
-
-#rubric-header {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-  height: auto;
-  margin: 40px auto 20px;
-  background-color: #155c35;
-  box-shadow: 8px 8px 0 0px #68a36b;
-  justify-content: center;
-  border-radius: 10px;
-}
-
 h2 {
   color: white;
   font-family: "Roboto", "Arial", sans-serif;
@@ -538,70 +454,6 @@ h3 {
   font-size: 30px; 
   font-weight: lighter; 
   color: #333333;
-}
-
-.circle {
-  height: 20px;
-  width: 20px;
-  margin: 5px;
-  border-radius: 50%;
-  padding: 2px 1px 0px 0px;
-  color: rgba(104, 163, 107, 1);
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  background-color: white;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0);
-  transition: height 0.2s, width 0.2s, background-color 0.2s, margin 0.2s, box-shadow 0.2s, color 0.2s;
-}
-
-.circle:hover {
-  height: 25px;
-  width: 25px;
-  margin: 2.5px;
-  background-color: #68a36b;
-  color: rgba(54, 90, 56, 0);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  cursor: pointer;  
-}
-
-#circle-container {
-  padding: 10px; 
-  display: flex; 
-  flex-direction: row;
-  margin-right: 10px;
-  justify-content: right;
-  align-items: center;
-}
-
-.rubric-table {
-  width: 45%;
-  height: auto;
-  margin: 0 auto;
-  line-height: 1.5;
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 20px;
-  color: #155c35;
-}
-
-.rubric-cell {
-  padding: 10px;
-}
-
-.rubric-col1 {
-  text-align: right
-}
-
-.rubric-col2 {
-  padding: 10px 40px 10px 40px;
-}
-
-.rubric-col3 {
-  text-align: right
 }
 
 .img-home {
@@ -674,86 +526,37 @@ h3 {
   padding-left: 10px;
 }
 
-.iframe-class {
-  width: 100%;
-  height: 1000px;
-  border: none;
+.footer-container {
   margin: 0 auto;
-}
-
-#iframe {
-  width: 100%;
-  border: none;
-  margin: 0 auto;
-}
-
-.pt-spacer {
-  display: none;
-  width: 100%;
-  height: 90px;
-}
-
-.pt-dash-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: auto;
+  justify-items: center;
 }
 
-.pt-dash-script-top {
+.divider {
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pt-dash-flexbox-row {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.pt-dash-script {
-  width: auto;
-  height: auto;
-  margin: 0 10px;
-}
-
-.pt-dash-script-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.pt-directions {
-  max-width: 750px; 
-  margin: 0 auto;
-  border-radius: 5px;
-  padding: 15px; 
-  line-height: 1.5; 
-  font-size: 16px;
-  text-align: justify;
-  background-color: rgba(0,0,0,0.075);
+  border-bottom: #c7c7c7 solid 1px; 
+  margin: 50px auto; 
+  width: 40%;
 }
 
 @media (max-width: 1300px) {
-  .img-evergreen_logo {
+  .img-evergreen-logo {
     width: 55%;
   }
 
-  #container3 {
+  .container3 {
     flex-direction: column;
     width: 100%;
     align-items: center;
   }
 
-  #container3cols {
+  .container3cols {
     width: 100%;
   }
 
-  #container3 p {
+  .container3 p {
     font-size: 20px;
     color: #f2f2f2;
     width: 95%;
@@ -766,15 +569,11 @@ h3 {
   .about-p {
     width: 70%;
   }
-
-  .green-p {
-    width: 65%;
-  }
 }
 
 @media (max-width: 1024px) {
 
-  .img-evergreen_logo {
+  .img-evergreen-logo {
     width: 70%;
   }
 
@@ -800,10 +599,6 @@ h3 {
   .about-p {
     width: 90%;
   }
-
-  .green-p {
-    width: 80%;
-  }
 }
 
 @media (max-width: 768px) {
@@ -825,7 +620,7 @@ h3 {
     z-index: 2000;
   }
 
-  .img-evergreen_logo {
+  .img-evergreen-logo {
     display: none;
   }
 
@@ -849,17 +644,17 @@ h3 {
     padding-top: 75px;
   }
 
-  #container3 {
+  .container3 {
     flex-direction: column;
     width: 100%;
     align-items: center;
   }
 
-  #container3cols {
+  .container3cols {
     width: 100%;
   }
 
-  #container3 p {
+  .container3 p {
     font-size: 20px;
     color: #f2f2f2;
     width: 95%;
@@ -900,31 +695,9 @@ h3 {
     z-index: 1000;
   }
 
-  .nav-menu.pe {
-    position: fixed;
-    left: -150%;
-    top: 58px;
-    gap: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #155c35;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    transition: 0.5s ease-in-out;
-    z-index: 1000;
-  }
-
   .menu-button {
     margin: 16px 0;
     display: block;
-  }
-
-  .menu-button.pe {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 13px;
-    text-transform: uppercase;
   }
 
   .menu-title {
@@ -991,33 +764,11 @@ h3 {
   .topborderthick {
     display: none;
   }
-
-  #rubric-header {
-    width: 95%;
-    margin-top: 15px;
-  }
-
-  .rubric-table {
-    width: 90%;
-  }
-
-  .green-p {
-    width: 90%;
-    margin: 0px 0px -65px 0px;
-  }
-
-  .pt-spacer {
-    display: block;
-  }
 }
 
 @media (max-width: 400px) {
   
-  #rubric-header {
-    flex-direction: column;
-  }
-
-  .img-evergreen_logo-mobile {
+  .img-evergreen-logo-mobile {
     max-width: 65%;
     display: none;
   }
