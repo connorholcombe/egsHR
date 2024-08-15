@@ -1,4 +1,4 @@
-const topBorder = document.getElementById('top-bar');
+const topBorder = document.getElementById('top-border');
 const initialOffsetTop = topBorder.offsetTop;
 window.addEventListener('scroll', () => {
     if (window.scrollY > initialOffsetTop) {
