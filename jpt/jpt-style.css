@@ -8,6 +8,13 @@ h1 {
   color: #155c35;
 }
 
+.header-footer {
+  width: 100%;
+  height: auto;
+  position: sticky;
+  left: 0
+}
+
 .topborder {
   background-color: #155c35;
   height: 8px;
@@ -95,10 +102,7 @@ h1 {
   font-size: 15px;
   text-decoration: none;
   display: inline-block; 
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 15px;
 }
 
 .headerbutton:hover {
