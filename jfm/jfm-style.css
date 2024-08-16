@@ -18,7 +18,8 @@ br {
   width: 100%;
   height: auto;
   position: sticky;
-  left: 0
+  left: 0;
+  overflow: auto;
 }
 
 .topborder {
@@ -133,9 +134,9 @@ html {
 
 body {
   background: #f2f2f2;
-  overflow: auto;
   height: auto;
   width: 100%;
+  /* overflow: auto; */
   margin: 0 auto;
   font-family: "Roboto", "Arial", sans-serif;
   color: #555555;
