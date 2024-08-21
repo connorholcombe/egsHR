@@ -109,6 +109,10 @@ br {
   padding: 10px 15px;
 }
 
+.headerbutton.right {
+  margin-right: 15px;
+}
+
 .headerbutton:hover {
   background-color: #68a36b;
   color: #f2f2f2;
