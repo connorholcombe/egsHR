@@ -9,10 +9,10 @@ h1 {
 }
 
 .header-footer {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  max-width: 100%;
   position: sticky;
-  left: 0
+  left: 0;
 }
 
 .topborder {
@@ -31,7 +31,7 @@ h1 {
   background-color: #155c35;
   height: 30px;
   width: 100%;
-  position: relative;
+  /* position: relative; */
   top: 0;
   left: 0;
   display: flex;
@@ -43,7 +43,7 @@ h1 {
   background: #68a36b;
   height: 8px;
   width: 100%;
-  position: relative;
+  /* position: relative; */
   top: 0;
   left: 0;
 }
@@ -105,6 +105,10 @@ h1 {
   padding: 10px 15px;
 }
 
+.headerbutton.right {
+  margin-right: 15px;
+}
+
 .headerbutton:hover {
   background-color: #68a36b;
   color: #f2f2f2;
@@ -129,10 +133,13 @@ html {
 
 body {
   background: #f2f2f2;
-  overflow: auto;
   height: auto;
-  width: 100%;
+  /* overflow: auto; */
+  width: fit-content;
+  min-width: 100%;
   margin: 0 auto;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #555555;
 }
 
 #body-wrapper {
