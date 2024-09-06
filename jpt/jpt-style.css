@@ -324,6 +324,7 @@ ul li ul.dropdown {
 ul li:hover ul.dropdown {
   pointer-events: all;
   display: block;
+  z-index: 10000;
   opacity: 1;
   transform: rotate(0deg);
   transition: opacity 0.2s ease-in-out, transform 0.4s linear;
@@ -332,10 +333,12 @@ ul li:hover ul.dropdown {
 ul li:not(:hover) ul.dropdown {
   opacity: 1;
   transform: rotatex(90deg);
+  z-index: 10000;
   transition: opacity 0.4s ease-in-out, transform 0.4s;
 }
 
 ul li ul.dropdown li {
+  z-index: 10000;
   display: block;
 }
 
@@ -343,6 +346,7 @@ ul li ul.dropdown li:hover {
   background-color: #cccccc;
   transition: background-color 0.2s ease-in-out;
   color: #333;
+  z-index: 10000;
   transition: color .2s ease-in;
 }
 
@@ -356,7 +360,7 @@ ul li:hover ul.dropdown:after {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 101;
+  z-index: 10000;
   transition: 0.2s border-top;
 }
 
