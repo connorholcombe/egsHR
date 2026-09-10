@@ -1,0 +1,7 @@
+# Caspio App Exports
+/caspio-export-jpt/**
+
+# Local Agent Files
+.agents
+.agent-local
+AGENTS.md
