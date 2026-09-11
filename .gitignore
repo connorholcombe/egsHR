@@ -2,6 +2,7 @@
 /caspio-exports/**
 
 # Local Agent Files
+.codex
 .agents
 .agent-local
 AGENTS.md
